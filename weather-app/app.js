@@ -40,3 +40,16 @@ function weatherDetails(cityName) {
 }
 
 weatherDetails(city);
+
+
+
+/*
+The purpose of package.json in managing dependencies is to list the required packages, 
+organize them, and allow npm to automatically install and reproduce your project setup anywhere required.
+
+The node_modules folder should not be included in version control because it is too large 
+and not necessary to store in GitHub repositories.
+
+When running npm install, npm reads your package.json and copies the dependency tree 
+and it builds a local node_modules folder to download the libraries.
+*/
